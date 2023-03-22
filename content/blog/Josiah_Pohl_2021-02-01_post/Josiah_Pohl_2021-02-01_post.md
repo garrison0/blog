@@ -1,8 +1,9 @@
 ---
-author: Josiah Pohl
 title: Metrosexual Tendencies
+author: Josiah Pohl
+img: josiah_pohl_2021-02-01.jpg
 date: 1 February 2021
-img: /uploads/Josiah_Pohl_2021-02-01.jpg
+description: DESC
 ---
 
 ## My \~journey\~
