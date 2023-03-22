@@ -11,6 +11,10 @@ const CardContainer = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  @media (max-width: 650px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 const Card = styled.div`
@@ -64,14 +68,12 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
-  console.log(posts[2].frontmatter);
   return (
     <Layout location={location} title={siteTitle}>
       <CardContainer>
         {posts.map((post) => (
           <Link key={post.fields.slug} href={`${post.fields.slug}`}>
             <Card>
-              {'ok' + post.frontmatter}
               <CardImage src={post.frontmatter.img} />
               <CardTitle>{post.frontmatter.title || post.fields.slug}</CardTitle>
               <CardAuthor>{"by\n" + (post.frontmatter.author || 'Anonymous')}</CardAuthor>
@@ -110,6 +112,8 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          img
+          author
         }
       }
     }
