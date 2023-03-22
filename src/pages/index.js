@@ -1,9 +1,52 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import styled from 'styled-components';
+
+const CardContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+`
+
+const Card = styled.div`
+  margin: 0.75rem 0;
+  max-width: 300px;
+  border: 1px solid #8F8F8F;
+  border-radius: 2px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0px 2px 2px #8F8F8F4F;
+  transition: all 200ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+  }
+`
+
+const CardImage = styled.img`
+  max-width: 240px;
+  max-height: 240px;
+`
+
+const CardTitle = styled.h4`
+  font-style: italic;
+  margin: 0;
+  margin-top: 1rem;
+`
+
+const CardAuthor = styled.h4`
+  white-space: pre-line;
+  margin: 0;
+`
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -12,7 +55,6 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
           directory you specified for the "gatsby-source-filesystem" plugin in
@@ -22,41 +64,22 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
+  console.log(posts[2].frontmatter);
   return (
     <Layout location={location} title={siteTitle}>
-      <Bio />
-      <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+      <CardContainer>
+        {posts.map((post) => (
+          <Link key={post.fields.slug} href={`${post.fields.slug}`}>
+            <Card>
+              {'ok' + post.frontmatter}
+              <CardImage src={post.frontmatter.img} />
+              <CardTitle>{post.frontmatter.title || post.fields.slug}</CardTitle>
+              <CardAuthor>{"by\n" + (post.frontmatter.author || 'Anonymous')}</CardAuthor>
+            </Card>
+          </Link>
+        ))}
+      </CardContainer>
 
-          return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </li>
-          )
-        })}
-      </ol>
     </Layout>
   )
 }

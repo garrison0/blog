@@ -1,6 +1,6 @@
 ---
 title: A Dark Night of the Soul
-img: /uploads/Andy_Miller_2020-07-12.jpg
+img: public/uploads/Andy_Miller_2020-07-12.jpg
 author: Andy Miller
 date: '2020-07-12T06:00:00.000Z'
 relatedPosts:
