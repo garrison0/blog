@@ -2,7 +2,7 @@
 author: Joe Hunt
 title: Lonesome Road
 subtitle: At the Intersection of Truth in Narrative
-date: 1 August 2020
+date: 2020-08-01
 img: /uploads/Joe_Hunt_2020-08-01.jpg
 ---
 

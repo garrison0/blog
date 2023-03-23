@@ -1,7 +1,7 @@
 ---
 author: Shelley Pohl
 title: 22 realizations at 22
-date: 30 April 2020
+date: 2020-04-30
 img: /uploads/Shelley_Pohl_2020-04-30.jpg
 ---
 

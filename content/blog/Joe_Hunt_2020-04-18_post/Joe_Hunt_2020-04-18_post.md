@@ -2,7 +2,7 @@
 author: Joe Hunt
 title: Pyrrhus of Algeria
 subtitle: On Absurd Heroism
-date: 18 April 2020
+date: 2020-04-18
 img: /uploads/Joe_Hunt_2020-04-18.jpg
 ---
 

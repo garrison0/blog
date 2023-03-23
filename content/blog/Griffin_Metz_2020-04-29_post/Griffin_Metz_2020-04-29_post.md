@@ -1,6 +1,7 @@
 ---
 title: The Top 10 Albums of the '10s
 author: Griffin Metz
+date: 2020-04-29
 img: /uploads/Griffin_Metz_2020-04-29.jpg
 ---
 

@@ -1,7 +1,7 @@
 ---
 author: Daniel Brandt
 title: The 21st Century Pandemic
-date: 1 August 2020
+date: 2020-08-01
 img: /uploads/Daniel_Brandt_2020-08-01.jpg
 ---
 

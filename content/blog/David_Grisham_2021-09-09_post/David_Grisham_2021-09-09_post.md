@@ -1,5 +1,6 @@
 ---
 title: El Shaddai
+author: David Grisham
 img: /uploads/David_Grisham_2021-09-09.jpg
 date: '2021-09-09T00:00:00.000Z'
 ---

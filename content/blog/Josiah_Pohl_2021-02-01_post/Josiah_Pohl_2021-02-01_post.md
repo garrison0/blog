@@ -2,7 +2,7 @@
 title: Metrosexual Tendencies
 author: Josiah Pohl
 img: uploads/Josiah_Pohl_2021-02-01.jpg
-date: 1 February 2021
+date: 2021-02-01
 description: DESC
 ---
 

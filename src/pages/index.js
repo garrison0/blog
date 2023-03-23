@@ -54,7 +54,9 @@ const CardAuthor = styled.h4`
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+  const posts = data.allMarkdownRemark.nodes.sort(function(a,b){
+    return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
+  });
 
   if (posts.length === 0) {
     return (

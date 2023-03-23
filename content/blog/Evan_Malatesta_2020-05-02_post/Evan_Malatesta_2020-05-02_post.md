@@ -1,7 +1,7 @@
 ---
 author: Evan Malatesta
 title: The Winding Road
-date: 2 May 2020
+date: 2020-05-02
 img: /uploads/Evan_Malatesta_2020-05-02.jpg
 ---
 

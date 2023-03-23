@@ -1,7 +1,7 @@
 ---
 author: Jonathan Helland
 title: Netflix Won't Stop Autoplaying 13 Reasons Why This Isn't My Fault Please Help Me
-date: 22 September 2020
+date: 2020-09-22
 img: /uploads/Jonathan_Helland_2020-09-22.jpg
 ---
 

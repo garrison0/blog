@@ -1,5 +1,7 @@
 ---
 title: Conflict Resonance
+author: David Grisham
+date: 2021-09-09
 img: /uploads/David_Grisham_2020-08-01.jpg
 ---
 

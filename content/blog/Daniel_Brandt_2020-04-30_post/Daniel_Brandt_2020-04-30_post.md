@@ -1,7 +1,7 @@
 ---
 author: Daniel Brandt
 title: Why are Christians into Child Sacrifice?
-date: 30 April 2020
+date: 2020-04-30
 img: /uploads/Daniel_Brandt_2020-04-30.jpg
 ---
 

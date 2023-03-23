@@ -2,7 +2,7 @@
 author: Joe Hunt
 title: A Civics Lesson I Never Wish I Needed
 subtitle: On Liberalism, Protest, Radicalization, And White Nationalism in Modern Politics
-date: 1 February 2021
+date: 2021-02-01
 img: /uploads/Joe_Hunt_2021-02-01.jpg
 ---
 

@@ -1,7 +1,7 @@
 ---
 author: Daniel Butler
 title: Relationship Status
-date: 1 February 2021
+date: 2021-02-01
 img: /uploads/Daniel_Butler_2021-02-01.jpg
 ---
 

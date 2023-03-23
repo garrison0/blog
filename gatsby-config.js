@@ -9,16 +9,9 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `garments of skin`,
-    author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
-    },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `garments of sk\\in`,
+    description: `storing thoughts`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
   },
   plugins: [
     `gatsby-plugin-image`,

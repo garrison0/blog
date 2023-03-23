@@ -1,13 +1,11 @@
 ---
 title: A Dark Night of the Soul
-img: public/uploads/Andy_Miller_2020-07-12.jpg
+img: uploads/Andy_Miller_2020-07-12.jpg
 author: Andy Miller
 date: '2020-07-12T06:00:00.000Z'
 relatedPosts:
   - relatedPost: content/post/Daniel_Brandt_2021-10-25_post.mdx
 ---
-
-6/14/2020
 
 Writhing in distortion, I ferociously rocked my head back and forth,
 hearing my neck crack and pop. It was a physical expression of the

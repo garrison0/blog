@@ -2,7 +2,7 @@
 author: Joe Hunt
 title: ...and an Engine on Fire
 subtitle: On Liminality
-date: 10 September 2021
+date: 2021-09-10
 img: /uploads/Joe_Hunt_2021-09-10.jpg
 ---
 

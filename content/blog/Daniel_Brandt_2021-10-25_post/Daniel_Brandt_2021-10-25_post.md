@@ -1,7 +1,7 @@
 ---
 author: Daniel Brandt
 title: The Enemy of your Soul
-date: 25 October 2021
+date: 2021-10-25
 img: /uploads/Daniel_Brandt_2021-10-25.jpg
 ---
 

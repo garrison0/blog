@@ -1,7 +1,7 @@
 ---
 author: Crystal Piedy
 title: Broken Bones, Broken Heart
-date: 29 January 2022
+date: 2022-01-29
 img: /uploads/Crystal_Piedy_2022-01-29.jpg
 ---
 

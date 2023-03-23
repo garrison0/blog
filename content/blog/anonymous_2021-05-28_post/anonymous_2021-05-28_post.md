@@ -1,7 +1,7 @@
 ---
 author: Anonymous
 title: Do you remember...
-date:  28 May 2021
+date: 2021-05-28
 img: /uploads/anonymous_2021-05-28.jpg
 ---
 

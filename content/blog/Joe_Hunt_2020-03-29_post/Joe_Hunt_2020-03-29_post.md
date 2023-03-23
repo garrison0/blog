@@ -2,7 +2,7 @@
 author: Joe Hunt
 title: Arcadia
 subtitle: The Importance of Place and History on Narrative
-date: 29 March 2020
+date: 2020-03-29
 img: ./uploads/Joe_Hunt_2020-03-29.jpg
 ---
 

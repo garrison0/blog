@@ -2,7 +2,7 @@
 author: Matt Vail
 title: What Kratos taught me about Creativity
 subtitle: How I learned to enjoy the process.
-date: 29 April 2020
+date: 2020-04-29
 img: /uploads/Matt_Vail_2020-04-29.jpg
 ---
 
