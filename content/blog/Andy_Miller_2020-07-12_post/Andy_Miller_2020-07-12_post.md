@@ -1,10 +1,10 @@
 ---
 title: A Dark Night of the Soul
-img: uploads/Andy_Miller_2020-07-12.jpg
 author: Andy Miller
-date: '2020-07-12T06:00:00.000Z'
-relatedPosts:
-  - relatedPost: content/post/Daniel_Brandt_2021-10-25_post.mdx
+img: uploads/Andy_Miller_2020-07-12.jpg
+date: 2020-07-12T06:00:00.000Z
+description: DARK
+relatedPosts: Why are Christians into Child Sacrifice?
 ---
 
 Writhing in distortion, I ferociously rocked my head back and forth,
